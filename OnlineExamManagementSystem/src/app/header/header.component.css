@@ -1,0 +1,19 @@
+nav{
+  background-color: whitesmoke;
+  color: #0F403D;
+}
+
+
+.navbar-collapse{
+
+  padding-left: 500px;
+}
+
+.navbar-collapse .nav-item{
+
+  padding-left: 30px;
+}
+
+.navbar-collapse .dropdown{
+  padding-right: 30px;
+}

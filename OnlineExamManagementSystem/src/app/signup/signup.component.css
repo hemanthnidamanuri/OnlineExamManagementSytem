@@ -1,0 +1,44 @@
+.container{
+  width: 50%;
+  margin-top: 50px;
+  background-color: slategrey;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.card{
+  background-color: #3a4660;
+  font-size: x-small;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.material-icons.md-48 {
+  font-size: 50px;
+  color:yellowgreen;
+  padding-left: 150px;
+}
+
+.card-subtitle {
+  color: yellowgreen;
+  padding-left: 155px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+
+.col{
+  padding-top: 15px;
+  position: center;
+}
+
+label{
+  color: white;
+  font-size: 15px;
+}
+input{
+  height: 8px;
+}
+input:hover{
+  color: aquamarine;
+}
+#button-signup{
+  padding-top: 5px;
+}
