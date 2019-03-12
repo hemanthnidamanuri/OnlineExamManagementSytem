@@ -21,7 +21,6 @@ ul.list-unstyled.list-inline.social.text-center{
   padding-bottom: 2px;
   padding-top: 1px;
 }
-
 div.card-header.fa.fa-user::before{
   padding-left: 250px;
 }

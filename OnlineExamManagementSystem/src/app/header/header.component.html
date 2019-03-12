@@ -35,25 +35,25 @@
         <a class="nav-link">Pricing</a>
       </li>
       <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-           aria-expanded="false">Contact</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item">Action</a>
-          <a class="dropdown-item">Another action</a>
-          <div class="dropdown-divider"></div>
+        <a class="nav-link dropdown-toggle" href="#" id="navbar-Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          contact
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" >Action</a>
+          <a class="dropdown-item" >Another action</a>
+          <a class="dropdown-item">Something else here</a>
         </div>
+      </li>
       <li>
-        <div class="dropdown">
-          <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            login
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" [routerLink]="['userLogin']">Examlogin</a>
-            <a class="dropdown-item">Adminlogin</a>
-            <a class="dropdown-item">xxxlogin</a>
-          </div>
-        </div>
+      <a class="nav-link dropdown-toggle" href="#" id="navbar_Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Login
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" [routerLink]="['userLogin']">UserLogin</a>
+        <a class="dropdown-item" [routerLink]="['studentdashboard']">studentDashboard</a>
+        <a class="dropdown-item" [routerLink]="['adminLogin']">Adminlogin</a>
+        <a class="dropdown-item" [routerLink]="['admindashboard']">AdminDashboard</a>
+      </div>
       </li>
     </ul>
   </div>

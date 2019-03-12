@@ -1,0 +1,50 @@
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: #fafafa;
+  padding-bottom: 529px;
+}
+a,
+a:hover,
+a:focus{
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.wrapper{
+  position: absolute;
+  left: auto;
+  margin: 0px;
+}
+#sidebar{
+  min-width: 250px;
+  max-width: 250px;
+  background-color: #3a4660;
+  color: #fff;
+  min-height:900px;
+}
+#sidebar ul.components{
+  padding: 20px 0px;
+}
+
+#sidebar ul p{
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+#sidebar ul li a:hover{
+  color: yellowgreen;
+  background: #fff;
+}
+.display-3{
+  font-family: Helvetica, sans-serif;
+  font-size: 2.0em;
+  text-align: center;
+}
+div.card{
+  width: 25%;
+  margin-left: 300px;
+}
+button.btn{
+  padding-top: 30px;
+  padding-left: 300px;
+}

@@ -1,8 +1,7 @@
 nav{
-  background-color: whitesmoke;
-  color: #0F403D;
+  background-color: #007b5e;
+  color: whitesmoke;
 }
-
 
 .navbar-collapse{
 
@@ -14,6 +13,13 @@ nav{
   padding-left: 30px;
 }
 
-.navbar-collapse .dropdown{
-  padding-right: 30px;
+a#navbarDropdown.nav-link.dropdown-toggle{
+  color: whitesmoke;
+}
+a#navbar-Dropdown.nav-link.dropdown-toggle{
+  color: whitesmoke;
+}
+a#navbar_Dropdown.nav-link.dropdown-toggle{
+  padding-left: 30px;
+  color: whitesmoke;
 }
